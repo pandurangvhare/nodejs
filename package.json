@@ -1,7 +1,14 @@
 {
-  "name": "",
-  "version": "",
+  "name": "sample project",
+  "version": "1.0.0",
+  "main":"service.js",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "private": true,
+  "license": "MIT",
+  "author": "Microsoft",
+  "scripts": {
+      "start": "node service.js"
   }
 }
